@@ -1,6 +1,6 @@
 import turtle
 
-turtle.pensize(5)
+turtle.pensize(4)
 
 turtle.color("black")
 turtle.penup()
@@ -37,12 +37,12 @@ turtle.forward(150)
 turtle.penup()
 turtle.hideturtle()
 turtle.goto(-15, 190)
-turtle.write("North", font = 16)
+turtle.write("North", font = 15)
 turtle.goto(-15, -150)
-turtle.write("South", font = 16)
+turtle.write("South", font = 15)
 turtle.goto(160, 25)
-turtle.write('West', font = 16)
+turtle.write('West', font = 15)
 turtle.goto(-190, 25)
-turtle.write('East', font = 16)
+turtle.write('East', font = 15)
 
 turtle.getscreen()._root.mainloop()
