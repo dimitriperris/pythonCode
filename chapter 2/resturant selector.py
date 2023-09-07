@@ -1,7 +1,7 @@
 # Get dietary preferences from the user
-vegetarian = input("Is anyone in your party a vegetarian? ").lower()
-vegan = input("Is anyone in your party a vegan? ").lower()
-gluten_free = input("Is anyone in your party gluten-free? ").lower()
+vegetarian = input("Is anyone in your party a vegetarian? ")
+vegan = input("Is anyone in your party a vegan? ")
+gluten_free = input("Is anyone in your party gluten-free? ")
 
 # Define the restaurant options
 restaurants = {
