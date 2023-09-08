@@ -21,7 +21,7 @@ def number_to_roman(num):
     elif num == 10:
         return "X"
     else:
-        return None
+        return ()
 
 
 try:
@@ -34,4 +34,4 @@ try:
     else:
         print("Error: Please enter a number within the range of 1 through 10.")
 except ValueError:
-    print("Error: Invalid input. Please enter a valid number.")
+    print("Error: Invalid input, please enter a valid number.")

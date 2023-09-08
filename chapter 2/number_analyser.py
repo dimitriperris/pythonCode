@@ -3,7 +3,7 @@ number= int(input('Enter an integer'))
 if number > 0: 
     print('positive')
 elif number < 0: 
-    print('negaive')
+    print('negative')
 else: 
     print('zero') 
 

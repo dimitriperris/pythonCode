@@ -1,5 +1,5 @@
 
-pocket_number = int(input("Enter a pocket number (0-36): "))
+pocket_number = int(input('Enter a pocket number (0-36): '))
 
 if 0 <= pocket_number <= 36:
     if pocket_number == 0:
