@@ -1,31 +1,24 @@
-# Get dietary preferences from the user
-vegetarian = input("Is anyone in your party a vegetarian? ")
-vegan = input("Is anyone in your party a vegan? ")
-gluten_free = input("Is anyone in your party gluten-free? ")
-
-# Define the restaurant options
 restaurants = {
-    "Joe's Gourmet Burgers": {"vegetarian": "no", "vegan": "no", "gluten_free": "no"},
-    "Main Street Pizza Company": {"vegetarian": "yes", "vegan": "no", "gluten_free": "yes"},
-    "Corner Café": {"vegetarian": "yes", "vegan": "yes", "gluten_free": "yes"},
-    "Mama's Fine Italian": {"vegetarian": "yes", "vegan": "no", "gluten_free": "no"},
-    "The Chef's Kitchen": {"vegetarian": "yes", "vegan": "yes", "gluten_free": "yes"}
+    "Joe's Gourmet Burgers": {"Vegetarian": "No", "Vegan": "No", "Gluten-Free": "No"},
+    "Main Street Pizza Company": {"Vegetarian": "Yes", "Vegan": "No", "Gluten-Free": "Yes"},
+    "Corner Café": {"Vegetarian": "Yes", "Vegan": "Yes", "Gluten-Free": "Yes"},
+    "Mama's Fine Italian": {"Vegetarian": "Yes", "Vegan": "No", "Gluten-Free": "No"},
+    "The Chef's Kitchen": {"Vegetarian": "Yes", "Vegan": "Yes", "Gluten-Free": "Yes"}
 }
 
-# Create a list to store suitable restaurants
-suitable_restaurants = []
+vegetarian = input('Is anyone in your party a vegetarian? (yes/no) ').lower()
+vegan = input('Is anyone in your party a vegan? (yes/no) ').lower()
+gluten_free = input('Is anyone in your party gluten-free? (yes/no) ').lower()
 
-# Check dietary preferences and add suitable restaurants to the list
+valid_restaurants = []
+
 for restaurant, restrictions in restaurants.items():
-    if (vegetarian == "yes" or restrictions["vegetarian"] == "yes") and \
-       (vegan == "yes" or restrictions["vegan"] == "yes") and \
-       (gluten_free == "yes" or restrictions["gluten_free"] == "yes"):
-        suitable_restaurants.append(restaurant)
+    if (vegetarian == 'yes' and restrictions['Vegetarian'] == 'Yes') or \
+       (vegan == 'yes' and restrictions['Vegan'] == 'Yes') or \
+       (gluten_free == 'yes' and restrictions['Gluten-Free'] == 'Yes'):
+        valid_restaurants.append(restaurant)
 
-# Display suitable restaurant choices
-if suitable_restaurants:
-    print("Here are your restaurant choices:")
-    for restaurant in suitable_restaurants:
-        print(restaurant)
-else:
-    print("Sorry, there are no suitable restaurants for your party's dietary preferences.")
+print('Here are your restaurant choices:')
+for restaurant in valid_restaurants:
+    print(restaurant)
+
