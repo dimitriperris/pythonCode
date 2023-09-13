@@ -1,24 +1,27 @@
-restaurants = {
-    "Joe's Gourmet Burgers": {"Vegetarian": "No", "Vegan": "No", "Gluten-Free": "No"},
-    "Main Street Pizza Company": {"Vegetarian": "Yes", "Vegan": "No", "Gluten-Free": "Yes"},
-    "Corner Café": {"Vegetarian": "Yes", "Vegan": "Yes", "Gluten-Free": "Yes"},
-    "Mama's Fine Italian": {"Vegetarian": "Yes", "Vegan": "No", "Gluten-Free": "No"},
-    "The Chef's Kitchen": {"Vegetarian": "Yes", "Vegan": "Yes", "Gluten-Free": "Yes"}
-}
+print()
+vegitarian= input('Is there anyone in your party that is vegitarian? :')
+print()
+vegan= input('Is there anyone in your party that is vegan? :')
+print()
+glutenf= input('Is there anyone in your party that is gluten free? :')
 
-vegetarian = input('Is anyone in your party a vegetarian? (yes/no) ').lower()
-vegan = input('Is anyone in your party a vegan? (yes/no) ').lower()
-gluten_free = input('Is anyone in your party gluten-free? (yes/no) ').lower()
+if vegitarian == 'yes' or vegitarian == 'no':
+    if vegitarian == 'yes':
+        if vegan == 'yes':
+            if glutenf == 'yes':
+                print('You along with your friends can go to the Chefs Kitchen or the Corner Cafe.')
+            else: 
+                if glutenf == 'yes':
+                    print('You along with your friends can go to the Main Street Pizza Company.')
+        else:
+            if vegan == 'no' and vegitarian == 'yes':
+                print('You along with your friends can go to Mamas Fine Italian.')
+            else: 
+                if vegitarian == 'no' and vegan == 'no' and glutenf == 'no': 
+                    print('You along with your friends can go to Joes Gourmet Burgers')
+    else:
+        print('Error, enter either yes or no to proceed.')
+        print()
 
-valid_restaurants = []
 
-for restaurant, restrictions in restaurants.items():
-    if (vegetarian == 'yes' and restrictions['Vegetarian'] == 'Yes') or \
-       (vegan == 'yes' and restrictions['Vegan'] == 'Yes') or \
-       (gluten_free == 'yes' and restrictions['Gluten-Free'] == 'Yes'):
-        valid_restaurants.append(restaurant)
-
-print('Here are your restaurant choices:')
-for restaurant in valid_restaurants:
-    print(restaurant)
 
