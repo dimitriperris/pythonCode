@@ -12,7 +12,7 @@ calories_burned_per_minutes= 4.2
 
 for number_of_minutes in range( 10, 31, 5 ):
     number_of_calories_burned= ((number_of_minutes /1) * calories_burned_per_minutes)
-    print('You will burn', number_of_calories_burned, 'calories in', number_of_minutes, 'minutes')
+    print('You will burn', number_of_calories_burned, 'calories in', number_of_minutes, 'minutes.')
 
 
 
