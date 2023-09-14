@@ -8,9 +8,9 @@
 # On my honor, <YOUR NAME>, this programming assignment is my own work
 # and I have not provided this code to any other student.
 
-BS = 7  
+Base_S = 7  
 
-for row in range(BS, 0, -1):
+for row in range(Base_S, 0, -1):
     for column in range(row):
         print('*', end='')
     print()
