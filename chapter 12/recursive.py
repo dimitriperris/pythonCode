@@ -1,3 +1,13 @@
+# File: recursive.py
+# Description: Use recursive language that accepts two arguments into x and y. 
+# Assignment Name and Number: Recursive Multiplication #2
+#
+# Name: Dimitri Perris
+# GitHub: <YOUR GitHub>
+#
+# On my honor, <YOUR NAME>, this programming assignment is my own work
+# and I have not provided this code to any other student.
+
 def main():
     x = 7
     y = 5
@@ -10,5 +20,5 @@ def recursive_multiply(x, y):
     else:
         return x + recursive_multiply(x, y - 1)
 
-if __name__ == "__main__":
-    main()
+# Call the main function. 
+main()
