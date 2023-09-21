@@ -12,7 +12,7 @@ def main():
     x = 7
     y = 5
     product = recursive_multiply(x, y)
-    print('{x} * {y} = {product}')
+    print(',{x} * {y} = {product}')
 
 def recursive_multiply(x, y):
     if y == 1:

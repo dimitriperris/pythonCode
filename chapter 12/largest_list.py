@@ -22,7 +22,7 @@ def find_largest(numbers):
         return largest_in_all
 
 def main():
-    numbers = [1, 24, 37, 41, 11, 67, 32, 81, ]
+    numbers = (1, 24, 37, 41, 11, 67, 32, 81,)
     largest = find_largest(numbers)
     print('The largest value in the list is:', largest)
 
