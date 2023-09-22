@@ -9,16 +9,13 @@
 # and I have not provided this code to any other student.
 
 def main():
-    x = 7
+    x = 4
     y = 5
-    product = recursive_multiply(x, y)
-    print(',{x} * {y} = {product}')
 
-def recursive_multiply(x, y):
-    if y == 1:
-        return x
+def func(x,y):
+    if x>0:
+        return y + func(x-1,y)
     else:
-        return x + recursive_multiply(x, y - 1)
-
-# Call the main function. 
+        return 0
+    
 main()
