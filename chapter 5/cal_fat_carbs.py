@@ -15,6 +15,6 @@ def main():
         print('Calories from fat', calories_from_fat, 'calories.')
         print('Calories from carbohydrates', calories_from_carbs,'calories.')
     except ValueError:
-        print('Error. Please enter the correct numbers for fat and carbohydrate grams.')
+        print('Error. Please enter the correct number for fat and carbohydrate grams.')
 
 main()
