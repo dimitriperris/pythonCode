@@ -1,3 +1,13 @@
+# File: cal_fat_carbs.py
+# Description: Make calculations converting calories from fat and carbs. 
+# Assignment Name and Number: Calories from Fat and Carbohydrates #6
+#
+# Name: Dimitri Perris
+# GitHub: <YOUR GitHub>
+#
+# On my honor, <YOUR NAME>, this programming assignment is my own work
+# and I have not provided this code to any other student.
+
 def calc_calories_to_fat(fat_grams):
     return fat_grams * 9
 

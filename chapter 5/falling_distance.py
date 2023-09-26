@@ -1,3 +1,13 @@
+# File: falling_distance.py
+# Description: Write a function that accepts an object's falling time in seconds. 
+# Assignment Name and Number: Falling Distance #13
+#
+# Name: Dimitri Perris
+# GitHub: <YOUR GitHub>
+#
+# On my honor, <YOUR NAME>, this programming assignment is my own work
+# and I have not provided this code to any other student.
+
 def falling_distance(time):
     gravity = 9.8  
     distance = 0.5 * gravity * (time ** 2)

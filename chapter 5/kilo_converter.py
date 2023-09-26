@@ -1,3 +1,13 @@
+# File: kilo_converter.py
+# Description: Convert kilometers to miles using the given formula. 
+# Assignment Name and Number: Kilometer Converter #1
+#
+# Name: Dimitri Perris
+# GitHub: <YOUR GitHub>
+#
+# On my honor, <YOUR NAME>, this programming assignment is my own work
+# and I have not provided this code to any other student.
+
 def kilo_miles(kilometers):
     miles = kilometers * 0.6214
     return miles
