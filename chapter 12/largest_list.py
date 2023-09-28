@@ -9,8 +9,6 @@
 # and I have not provided this code to any other student.
 
 def find_largest(list):
-    if not list:
-        return None
     max_value = list[0]
     for value in list:
         if value > max_value:
