@@ -13,11 +13,11 @@ import random
 def find_computer_choice():
     computer_choice= random.randint(1,3)
     if computer_choice == 1: 
-        print('Rock')
+        return('Rock')
     elif computer_choice == 2:
-        print('Paper')
+        return('Paper')
     else: 
-        print('Scissors')
+        return('Scissors')
 
 def find_winner(computer_choice, user_choice):
     if user_choice == computer_choice:
@@ -29,7 +29,7 @@ def find_winner(computer_choice, user_choice):
     elif user_choice == 'paper' and computer_choice == 'rock':
         print('You win, paper beats rock.') 
     else:
-        print('Computer wins!') 
+        return('Computer wins!') 
 
 def main():
     user_choice = input('Enter rock, paper, or scissors: ')
