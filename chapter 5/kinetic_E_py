@@ -1,3 +1,13 @@
+# File: kinetic_E.py
+# Description: Determie kinetic energy using the formula KE=1/2mv^2
+# Assignment Name and Number: Kinetic Energy #14
+#
+# Name: Dimitri Perris
+# GitHub: <YOUR GitHub>
+#
+# On my honor, <YOUR NAME>, this programming assignment is my own work
+# and I have not provided this code to any other student.
+
 def kinetic_energy(mass, velocity):
     kinetic_energy = 0.5 * mass * (velocity ** 2)
     return kinetic_energy
