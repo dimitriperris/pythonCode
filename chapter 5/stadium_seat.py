@@ -1,3 +1,13 @@
+# File: stadium_seat.py
+# Description: Write a program that asks how many tickets for each class of seats were sold, then displays the amount of income generated from ticket sales.
+# Assignment Name and Number: Stadium Seating #7
+#
+# Name: Dimitri Perris
+# GitHub: <YOUR GitHub>
+#
+# On my honor, <YOUR NAME>, this programming assignment is my own work
+# and I have not provided this code to any other student.
+
 def main():
     class_A_tickets = int(input('Enter the number of Class A tickets sold: '))
     class_B_tickets = int(input('Enter the number of Class B tickets sold: '))

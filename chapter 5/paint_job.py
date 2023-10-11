@@ -1,3 +1,13 @@
+# File: paint_job.py
+# Description: Write a program that asks the user to enter the square feet of wall space to be painted and the price of the paint per gallon 
+# Assignment Name and Number: Paint Job Estimator #8
+#
+# Name: Dimitri Perris
+# GitHub: <YOUR GitHub>
+#
+# On my honor, <YOUR NAME>, this programming assignment is my own work
+# and I have not provided this code to any other student.
+
 def main():
     sqr_ft = float(input('Enter the square feet of wall space to be painted: '))
     paint_price = float(input('Enter the price of paint per gallon: '))

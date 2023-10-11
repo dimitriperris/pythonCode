@@ -19,7 +19,7 @@ def main():
     grades = [63, 92, 57, 84]
     
     largest = find_largest(grades)
-    print('Largest value in the list:', largest)
+    print('Largest number in the list:', largest)
 
 main()
 

@@ -14,5 +14,5 @@ def multiply_recursive(x, y):
     else:
         return x + multiply_recursive(x, y - 1)
     
-result = multiply_recursive(9, 4)
-print('The result of multiplication is:', result)
+result = multiply_recursive(121, 2)
+print('The result of the multiplication is:', result)

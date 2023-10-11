@@ -1,3 +1,13 @@
+# File: num_analyser.py
+# Description: Design a program that asks the user to enter a series of 20 numbers
+# Assignment Name and Number: Number Analysis Program #4
+#
+# Name: Dimitri Perris
+# GitHub: <YOUR GitHub>
+#
+# On my honor, <YOUR NAME>, this programming assignment is my own work
+# and I have not provided this code to any other student.
+
 numbers = []
 
 for n in range(20):
