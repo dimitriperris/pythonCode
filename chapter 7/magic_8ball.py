@@ -10,7 +10,7 @@
 
 import random
 
-responses = ['Yes, of course', 'No way!', 'For sure!', 'Ask me later', 'Im not sure', 'I can’t tell you right now', 'I’ll tell you after my nap', 'No way!', 'I dont think so', 'Without a doubt, yes', 'Without a doubt, no', 'The answer is clearly NO']
+responses = ['Yes, of course', 'No way!', 'For sure!', 'Ask me later', 'Im not sure', 'I cant tell you right now', 'Ill tell you after my nap', 'No way!', 'I dont think so', 'Without a doubt, yes', 'Without a doubt, no', 'The answer is clearly NO']
 
 while True:
     input('Ask a yes or no question: ')
