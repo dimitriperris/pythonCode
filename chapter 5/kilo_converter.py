@@ -10,7 +10,7 @@
 
 def main():
     global kilo
-    kilo = int(input('Enter the distance in kilometers: '))
+    kilo = float(input('Enter the distance in kilometers: '))
     final= kilo_miles()
 
     print('The conversion of', kilo, 'kilometers to miles is', final, 'miles.')
@@ -18,8 +18,5 @@ def main():
 def kilo_miles():
     miles = kilo * 0.6214
     return miles
-
-
-
 
 main()
