@@ -10,13 +10,18 @@
 
 
 numbers = [74, 19, 105, 20, -2, 67, 77, 124, -45, 38]
+valid_numbers = []
+total = 0
 
-valid_numbers = [num for num in numbers if 0 <= num <= 100]
+for num in numbers:
+    if 0 <= num <= 100:
+        valid_numbers.append(num)
+        total += num
 
-total = sum(valid_numbers)
 average = total / len(valid_numbers) if valid_numbers else 0
 
 print('Valid Numbers:', valid_numbers)
 print('Total of Valid Numbers:', total)
 print('Average of Valid Numbers:', average)
+
 
