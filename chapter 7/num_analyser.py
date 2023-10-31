@@ -10,9 +10,9 @@
 
 numbers = []
 
-for n in range(20):
+for i in range(20):
     try:
-        number = float(input(f'Enter number {n + 1}: '))
+        number = float(input(f'Enter number {i + 1}: '))
         numbers.append(number)
     except ValueError:
         print('Invalid input. Please enter a valid number.')
