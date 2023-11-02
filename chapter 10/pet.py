@@ -25,7 +25,7 @@ class Pet:
 def main():
     pet_name = input('Please enter your pets name: ')
     pet_type = input('What animal is your pet?  ')
-    pet_age = int(input('What is the age of your pet? '))  
+    pet_age = (input('What is the age of your pet? '))  
 
     pet_specs = Pet(pet_name, pet_type, pet_age)
 
