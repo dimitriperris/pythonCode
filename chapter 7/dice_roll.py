@@ -11,14 +11,10 @@
 import random
 
 def roll(number_of_throws):
-    return sorted([random.randint(1, 6) 
-    for num in range(number_of_throws)])
+    throws = []
+    for i in range(number_of_throws):
+        throws.append(random.randint(1, 6))
+    return throws
 
-number_of_throws = int(input('Enter the number of throws: '))
-    
-if number_of_throws > 0:
-    random_numbers = roll(number_of_throws)
-    print('Sorted list of random numbers', random_numbers)
-else:
-    print('Enter a positive integer.')
-
+n = int(input("Enter number of throws: "))  
+print(roll(n))
